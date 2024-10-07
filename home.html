@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Home Page</title>
+	<link rel="icon" type="image/x-icon" href="logo.png">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap">
+	<style>
+		body{
+		  	margin: 0;
+		  	font-family: Montserrat;
+		  	background-color:#fff6ed
+		}
+		.topnav{
+			display: flex;
+		  	justify-content: space-between;
+		  	align-items: center;
+		  	overflow: hidden;
+		  	background-color: #007000;
+		}
+		.topnav a{
+		  	float: right;
+		  	color: #f2f2f2;
+		  	text-align: center;
+		  	padding: 14px 16px;
+		  	text-decoration: none;
+		  	font-size: 17px;
+		}
+		.topnav a:hover{
+		  	background-color: white;
+		  	color: #D2222D;
+		}
+		.topnav a.active{
+		  	background-color: #D2222D;
+		  	color: white;
+		}
+		.navlinks{
+		  	display: flex; 
+		}
+
+		.content{
+		  	display: flex;
+		  	align-items: flex-start; 
+		  	gap: 20px; 
+		  	max-width: 1200px; 
+		  	margin: 0 auto; 
+		}
+		.content img{
+		  	max-width: 400px;
+		  	height: auto; 
+		  	border-radius: 8px;
+		  	padding-bottom: 15px;
+		}
+		.content p{
+		  	flex: 1; 
+		  	font-size: 18px;
+		  	line-height: 1.6;
+		  	padding-left: 20px;
+		  	padding-top: 20px;
+		}
+
+		.banner{
+			width: 100%;
+			height: 200px;
+			background-color: #007000;
+			background-size: cover; 
+			background-position: center; 
+			display: flex; 
+			align-items: center; 
+			justify-content: center; 
+			color: white; 
+			font-size: 36px; 
+		}
+
+		.two-sections{
+            display: flex;
+            justify-content: space-between;
+            margin: 20px auto;
+            max-width: 800px;
+            gap: 50px;
+            flex-wrap: wrap;
+        }
+        .section{
+            text-align: center;
+            flex: 1;
+        }
+        .section img{
+            width: 100%;
+            max-width: 400px;
+            heigth: 300px;
+            object-fit: cover;
+            border-radius: 8px; 
+            padding: 20px;
+            justify-content: space-between;
+        }
+        .section h2{
+            margin-top: 5px;
+            justify-content: space-between;
+        }
+        .section a{
+        	color: #007000;
+        	text-decoration: none;
+        	font-weight: bold;
+        }
+        .section a:hover{
+        	color: #D2222D;
+        	opacity: 0.7;
+        }
+        .section p{
+            margin-top: 5px;
+            justify-content: space-between;
+        }
+	</style>
+
+</head>
+<body>
+	<!-- red: #D2222D    green: #007000 -->
+	<div class = "topnav">
+		<img src="logo.png" alt="Logo" height="100" width="100">
+		<h2 style="color:white; font-size:30px; margin-right:220px; text-align:left;">Hands for Hope</h2>
+	  	<div class = "navlinks">
+	  		<a class = "active" href = "home.html">Home</a>
+	  		<a href = "updates.html">Latest Updates</a>
+		  	<a href = "donations.html">Donations</a>
+		  	<a href = "contacts.html">Contacts</a>
+		  	<a href = "">               </a>
+	  	</div>
+	</div>
+
+	<h1 align="center" style="color:#D2222D; font-size:50px">The Situation</h1>
+	<div class="content">
+		<p>
+			Bangladesh is one of the world's most densely populated countries, with 
+			a large percentage of its citizens living in poverty. It's known that 
+			insufficient access to basic necessities like food, clean water, and 
+			shelter continues to be a problem for millions of people worldwide, 
+			even in spite of notable advancements in economic growth and poverty 
+			reduction in recent years.
+			<br><br>
+			Many orphans and families are extremely vulnerable, facing daily 
+			hardships in finding the bare necessities to survive. The situation has 
+			intensified by frequent natural disasters, including floods and 
+			cyclones, causing families to be displaced and infrastructure to be destroyed. 
+			<br><br>
+			Our goal is to provide relief to those most in need, 
+			offering support and resources to families and orphans who cannot support themselves.
+		</p>
+		<img src="bangladeshpovertymap.png" alt="Bangladesh Poverty Map">
+	</div>
+
+	<div class="banner">
+		<h1>Help Families in Bangladesh</h1>
+	</div>
+
+	<div class="two-sections">
+        <div class="section">
+            <img src="donationspic.jpg" alt="donations">
+            <h2><a href = "donations.html">Donations</a></h2>
+            <p>Come and find various families in need and help them with anything you can</p>
+        </div>
+        
+        <div class="section">
+            <img src="updatepic.png" alt="latest updates">
+            <h2><a href = "updates.html">Latest Updates</a></h2>
+            <p>Changes take place day by day and you can find out what they are here</p>
+        </div>
+    </div>
+
+    <h1 align=center style="background-color:#007000; color:#007000">thank you!</h1>
+
+</body>
+</html>
+
+
+
+
+
